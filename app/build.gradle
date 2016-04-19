@@ -28,6 +28,11 @@ android {
         }
     }
 
+    lintOptions
+    {
+        //dont let lint let you down
+        abortOnError false
+    }
     aaptOptions.noCompress ".dict"
 }
 
